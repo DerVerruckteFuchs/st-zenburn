@@ -32,3 +32,6 @@ Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
 
+Bloated
+-------
+This is latest (0.7) from git.suckless.org with alpha, scrollback, scrollback-mouse patches added. dcat's xresources patch is squeezed in. Use st.alpha integer to set opacity. You must run a compositor for the alpha feature.
