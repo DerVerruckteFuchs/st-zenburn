@@ -1,0 +1,11 @@
+--- config.def.h	2016-12-28 18:29:53.859336585 -0500
++++ config.def-26px.h	2016-12-28 18:29:37.109350287 -0500
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Office Code Pro Medium:pixelsize=13:antialias=true:autohint=true";
++static char *font = "Office Code Pro Medium:pixelsize=26:antialias=true:autohint=true";
+ static int bold_font = 0;
+ static int borderpx = 2;
+ #define histsize 2000
