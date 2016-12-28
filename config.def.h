@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CP Mono_v07 Plain:pixelsize=14:antialias=true:autohint=true";
+static char *font = "CP Mono_v07 Plain:pixelsize=18:antialias=true:autohint=true";
 static int bold_font = 0;
 static int borderpx = 2;
 #define histsize 2000
