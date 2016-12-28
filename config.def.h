@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CP Mono_v07 Plain:pixelsize=20:antialias=true:autohint=true";
+static char *font = "Office Code Pro Medium:pixelsize=20:antialias=true:autohint=true";
 static int bold_font = 0;
 static int borderpx = 2;
 #define histsize 2000
@@ -90,31 +90,31 @@ static int alpha = 0xFF;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#1c1c1c",
-	"#ff00ff",
-	"#00afaf",
-	"#0087ff",
-	"#5f5faf",
-	"#d75fff",
-	"#00afff",
-	"#808080",
+	"#3a3a3a",
+	"#cc9393",
+	"#7f9f7f",
+	"#d0bf8f",
+	"#6ca0a3",
+	"#dc8cc3",
+	"#93e0e3",
+	"#dcdccc",
 
 	/* 8 bright colors */
-	"#00d7ff",
-	"#d700ff",
-	"#00afd7",
-	"#0087af",
-	"#5f5fff",
-	"#ff5fff",
-	"#00d7ff",
+	"#7f9f7f",
+	"#d78787",
+	"#bfebbf",
+	"#f0dfaf",
+	"#8cd0d3",
+	"#dc8cc3",
+	"#93e0e3",
 	"#ffffff",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#8787ff",
-	"#8787ff",
-	"#1c1c1c",
+	"#dcdccc",
+	"#dcdccc",
+	"#3a3a3a",
 };
 
 
@@ -122,9 +122,9 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-static unsigned int defaultfg = 105;
-static unsigned int defaultbg = 234;
-static unsigned int defaultcs = 105;
+static unsigned int defaultfg = 188;
+static unsigned int defaultbg = 237;
+static unsigned int defaultcs = 188;
 static unsigned int defaultrcs = 257;
 
 /*
