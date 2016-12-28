@@ -90,24 +90,24 @@ static int alpha = 0xdd;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"1c1c1c",
-	"ff00ff",
-	"00afaf",
-	"0087ff",
-	"5f5faf",
-	"d75fff",
-	"00afff",
-	"808080",
+	"#1c1c1c",
+	"#ff00ff",
+	"#00afaf",
+	"#0087ff",
+	"#5f5faf",
+	"#d75fff",
+	"#00afff",
+	"#808080",
 
 	/* 8 bright colors */
-	"00d7ff",
-	"d700ff",
-	"00afd7",
-	"0087af",
-	"5f5fff",
-	"ff5fff",
-	"00d7ff",
-	"ffffff",
+	"#00d7ff",
+	"#d700ff",
+	"#00afd7",
+	"#0087af",
+	"#5f5fff",
+	"#ff5fff",
+	"#00d7ff",
+	"#ffffff",
 
 	[255] = 0,
 
